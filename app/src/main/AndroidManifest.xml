@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.converter">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Converter">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Acre.AcreToHectare"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Acre.AcreToSquareFoot"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Acre.AcreToSquareInch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Acre.AcreToSquareMeter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Acre.AcreToSquareYard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Acre.Acre_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Hectare.Hectare_List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Hectare.HectareToSquareYard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Hectare.HectareToAcre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Hectare.HectareToSquareFoot"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Hectare.HectareToSquareInch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Hectare.HectareToSquareMeter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareInch.SquareInch_List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareInch.SquareInchToAcre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareInch.SquareInchToHectare"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareInch.SquareInchToSquareFoot"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareInch.SquareInchToSquareMeter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareInch.SquareInchToSquareYard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareFoot.SquareFoot_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareFoot.SquareFootToAcre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareFoot.SquareFootToHectare"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareFoot.SquareFootToSquareInch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareFoot.SquareFootToSquareMeter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareFoot.SquareFootToSquareYard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareYard.SquareYard_List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareYard.SquareYardToAcre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareYard.SquareYardToHectare"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareYard.SquareYardToSquareFoot"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareYard.SquareYArdToSquareInch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareYard.SquareYardToSquareMeter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareMeter.SquareMeter_List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareMeter.SquareMeter_To_SquareYard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareMeter.SquareMeter_To_SquareInch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareMeter.SquareMeter_To_SquareFoot"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareMeter.SquareMeter_To_Hectare"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquareMeter.SquareMeter_To_Acre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Area_Menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Foot_Pound.Foot_pound_To_BritishThermalUnit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Foot_Pound.Foot_pound_To_GramCalorie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Foot_Pound.Foot_pound_To_Joule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Foot_Pound.Foot_pound_To_KiloCalorie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Foot_Pound.Foot_pound_To_KiloJoule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Foot_Pound.Foot_pound_To_WAttHour"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Foot_Pound.Foot_Pound_List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WattHour.WattHour_To_KiloJoule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WattHour.WattHour_To_KiloCalorie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WattHour.WattHour_To_Joule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WattHour.WattHour_To_Foot_Pound"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WattHour.WattHour_To_British_Thermal_Unit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WattHour.WattHour_To_GramCalorie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WattHour.WattHour_List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KiloCalorie.KiloCalorie_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KiloCalorie.KiloCalorie_To_WattHour"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KiloCalorie.KiloCalorie_To_KiloJoule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KiloCalorie.KiloCalorie_To_Joule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KiloCalorie.KiloCalorie_To_GramCalorie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KiloCalorie.KiloCalorie_To_Foot_Pound"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KiloCalorie.KiloCalorie_To_British_Thermal_Unit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gramcalorie.GramCalorie_To_KiloCalorie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gramcalorie.GramCalorie_To_Foot_Pound"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gramcalorie.GramCalorie_To_British_Thermal_Uint"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gramcalorie.GramCalorie_To_Watt_Hour"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gramcalorie.GramCalorie_To_KiloJoule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gramcalorie.GramCalorie_To_Joule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gramcalorie.GramCalorie_List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KiloJoule.KiloJoule_To_Foot_Pound"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KiloJoule.KiloJoule_To_British_Thermal_Unit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KiloJoule.KiloJoule_To_Watt_Hour"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KiloJoule.KiloJoule_To_Kilo_Calorie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KiloJoule.KiloJoule_To_Gram_Calorie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KiloJoule.KiloJoule_To_Joule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KiloJoule.KiloJoule_List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".joule.Joule_To_Foot_Pound"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".joule.Joule_To_British_Thermal_unit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".joule.Joule_To_WattHour"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".joule.Joule_To_KiloCalorie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".joule.Joule_To_GramCalorie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".joule.Joule_List_Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".joule.Joule_To_Kilojoule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Energy_Menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.InchConverter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.InchToCentimetre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.InchToFoot"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.InchToMile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.InchToKilo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.InchToMetre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.FootConverter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.FootToInch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.FootToMile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.FootToCentimetre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.FootToKilo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.FootToMetre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.CentimetreConverter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.CentiMetreToInch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.CentimetreToMile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.CentimetreToFoot"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.CentimetreToKilometre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.CentimetreToMetre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.MetreConverter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.MetreToCentimetre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.MetreToFoot"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.MetreToInch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.MetreToKilometre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.MetreToMile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.KilometreToCentimetre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.KilometreToFoot"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.KilometreToInch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.KilometreToMile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.KilometreToMetre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.KilometreConverter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length.Length_Menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Temperature.KelvinToFahrenheit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Temperature.KelvinToCelsius"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Temperature.FahrenheitToKelvin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Temperature.CelsiusToKelvin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Temperature.FahrenheitToCelsius"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Temperature.Temperature_Menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Temperature.CelsiusToFahrenheit"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".HomeConverter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Converter_Menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Kg.Kg_To_Tonne"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Kg.KG_To_US_Ton"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Kg.Kg_To_Stone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Kg.Kg_List_Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Kg.Kg_To_Pound"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pound.Pound_To_Kg"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Kg.Kg_To_Gram"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gram.Gram_To_Kg"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Kg.Kg_To_Ounce"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ounce.Ounce_To_Kg"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pound.Pound_List_Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pound.Pound_To_Tonne"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pound.Pound_To_Gram"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pound.Pound_To_US_Ton"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pound.Pound_To_Stone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pound.Pound_To_Ounce"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ounce.Ounce_List_Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ounce.Ounce_To_Tonne"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ounce.Ounce_To_US_Ton"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ounce.Ounce_To_Gram"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ounce.Ounce_To_Stone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ounce.Ounce_To_Pound"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gram.Gram_List_Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gram.Gram_To_Pound"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gram.Gram_To_Milligram"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gram.Gram_To_Stone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gram.Gram_To_Ounce"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tonne.Tonne_List_Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tonne.Tonne_To_Kg"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tonne.Tonne_To_Pound"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tonne.Tonne_To_US_Ton"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tonne.Tonne_To_Stone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tonne.Tonne_To_Ounce"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Kg.KgToMilligram"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Kg.KgToImperialTon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pound.PoundToMilligram"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pound.PoundToImperialTon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gram.GramToTonne"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gram.GramToUsTon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ounce.OunceToMilligram"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ounce.OunceToImperialTon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tonne.TonneToMilligram"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tonne.TonneToImperialTon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tonne.TonneToGram"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Stone.StoneToGram"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Stone.StoneToImperialTon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Stone.StoneToKg"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Stone.StoneToMilligram"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Stone.StoneToOunce"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Stone.StoneToPound"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Stone.StoneToTonne"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Stone.StoneToUsTon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Stone.StoneList"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

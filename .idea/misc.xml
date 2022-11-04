@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2324074074074074" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/drawable/activity_gradient.xml" value="0.2324074074074074" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/drawable/background_round.xml" value="0.2537037037037037" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.15625" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/drawable/ic_baseline_cake_24.xml" value="0.1285" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/drawable/ic_baseline_monitor_weight_24.xml" value="0.1285" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2064814814814815" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/drawable/list.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/drawable/mybutton.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/activity_bimactivity.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/age_calculator.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/area_list.xml" value="0.19455252918287938" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/calculation_activity.xml" value="0.19591836734693877" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/centimetre_converter.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/converter_menu_page.xml" value="0.152" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/data_converter.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/energy_list.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/foot_converter.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/foot_pound_list.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/gram_calorie_list.xml" value="0.264" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/gram_list.xml" value="0.176" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/gram_to_kg.xml" value="0.2421875" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/gram_to_milligram.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/gram_to_ounce.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/gram_to_pound.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/gram_to_stone.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/gram_to_tonne.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/gridview.xml" value="0.2" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/home.xml" value="0.17300724637681159" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/home_page.xml" value="0.1" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/inch_converter.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/joule_list.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/kg_pound.xml" value="0.121875" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/kg_to_gram.xml" value="0.2421875" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/kg_to_imperial_ton.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/kg_to_lbs.xml" value="0.23777173913043478" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/kg_to_ounce.xml" value="0.2421875" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/kg_to_pound.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/kg_to_stone.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/kg_to_tonne.xml" value="0.12" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/kg_to_us_ton.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/kilocalorie_list.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/kilojoule_list.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/kilometre_converter.xml" value="0.1867704280155642" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/length_calculation.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/length_list.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/list.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/maine_page.xml" value="0.22871376811594202" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/metre_converter.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/ounce_list.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/ounce_to_gram.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/ounce_to_kg.xml" value="0.2421875" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/ounce_to_pound.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/ounce_to_stone.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/ounce_to_tonne.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/ounce_to_us_ton.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/pound_list.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/pound_to_gram.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/pound_to_kg.xml" value="0.2421875" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/pound_to_ounce.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/pound_to_stone.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/pound_to_tonne.xml" value="0.21422101449275363" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/pound_to_us_ton.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/recycelerview_gram_calorie.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/recycelerview_kilocalorie.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/recycler_view.xml" value="0.2421875" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/recycler_view_gram.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/recycler_view_ounce.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/recycler_view_pound.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/recycler_view_stone.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/recyclerview_foot_pound.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/recyclerview_gram_calorie.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/recyclerview_joule.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/recyclerview_kilocalorie.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/recyclerview_kilojoule.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/recyclerview_tonne.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/recyclerview_watthour.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/recycleview_joule.xml" value="0.1157548125633232" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/stone_list.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/temperature_calculator.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/temperature_list.xml" value="0.1867704280155642" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/tonne_list.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/tonne_to_gram.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/tonne_to_kg.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/tonne_to_ounce.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/tonne_to_pound.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/tonne_to_stone.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/tonne_to_us_ton.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Converter/app/src/main/res/layout/watthour_list.xml" value="0.23802083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
