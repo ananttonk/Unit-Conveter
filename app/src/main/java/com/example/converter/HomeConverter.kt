@@ -14,7 +14,6 @@ class HomeConverter : AppCompatActivity() {
         binding = HomePageBinding.inflate(layoutInflater)
         setContentView(binding.root)
         supportActionBar?.hide()
-        binding.toolbarBackButton.setOnClickListener { finish() }
         binding.massConverter.setOnClickListener {
             val intent = Intent(this, Converter_Menu::class.java)
             startActivity(intent)
